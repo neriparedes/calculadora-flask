@@ -1,0 +1,79 @@
+/* --------- ESTILOS GENERALES --------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #d1f2eb, #a3e4d7);
+  text-align: center;
+  padding-top: 60px;
+  margin: 0;
+}
+
+/* --------- ENCABEZADO --------- */
+h1 {
+  margin-bottom: 25px;
+  color: #004d40;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* --------- FORMULARIO --------- */
+form {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  animation: fadeIn 0.7s ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+form:hover {
+  transform: scale(1.01);
+}
+
+/* --------- CAMPOS DE ENTRADA --------- */
+input, select {
+  margin: 10px;
+  padding: 12px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 180px;
+  box-sizing: border-box;
+}
+
+/* --------- BOTÓN --------- */
+button {
+  background: linear-gradient(to right, #26a69a, #00796b);
+  color: white;
+  font-size: 18px;
+  padding: 12px 32px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.4s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #00695c, #004d40);
+  transform: scale(1.05);
+}
+
+/* --------- RESULTADO --------- */
+h2 {
+  margin-top: 30px;
+  background-color: #e0f2f1;
+  padding: 16px 24px;
+  border-radius: 10px;
+  color: #00695c;
+  display: inline-block;
+  font-size: 20px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* --------- ANIMACIÓN DE ENTRADA --------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
